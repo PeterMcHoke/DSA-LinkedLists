@@ -78,7 +78,7 @@ class LinkedList {
 
         currNode.next = tempNode
     }
-
+    //Alvaro, it appears that find is not working. returning null
     find(item) {
         // Start at the head
         let currNode = this.head;
@@ -101,6 +101,7 @@ class LinkedList {
         // Found it
         return currNode;
     }
+    //Alvaro, this isn't working either. Any ideas?
     remove(item) {
         // If the list is empty
         if (!this.head) {
